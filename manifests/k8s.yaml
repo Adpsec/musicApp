@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: "{model_name}-deployment"
 spec:
-  replicas: "{nodo}"
+  replicas: {nodo}
   selector:
     matchLabels:
       app: "{model_name}-server"
